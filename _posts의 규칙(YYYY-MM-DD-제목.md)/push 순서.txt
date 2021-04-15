@@ -1,0 +1,6 @@
+cd 로 자기 저장소로가기
+git status 로 상태 확인
+git add * 로 커밋할 수 있게 추가하기
+git commit -m "커밋메시지"
+git remote -v 현재 조종중인 리모트 확인
+git push 보내기
