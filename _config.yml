@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/KhanBe/KhanBe.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png" 홈페이지 기본 티져 이미지
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"타이틀 옆에 작게 들어갈 이미지
-masthead_title           : "꾸준한 "
+masthead_title           : "DEVELOPER "
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
