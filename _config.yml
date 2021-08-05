@@ -281,11 +281,4 @@ defaults:
       share: true
       related: true
 
-tipue_search:
-     include:
-         pages: false
-         collections: []
-     exclude:
-         files: [search.html, index.html, tags.html]
-         categories: []
-         tags: []
+
