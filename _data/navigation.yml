@@ -5,7 +5,7 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Posts"
-    url: /year-archive/
+    url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
