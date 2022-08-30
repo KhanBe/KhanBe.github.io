@@ -1,5 +1,5 @@
 ---
-title:  "[Unity] - 코루틴 (Coroutine)"
+title:  "[Unity] - 코루틴 (Coroutine) (1)"
 excerpt: "코루틴 다루기"
 
 
