@@ -40,3 +40,27 @@ int solution(string str1, string str2) {
 - string 헤더 사용
 
 ---
+
+### 대소문자 변환
+
+```cpp
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+string solution(string my_string)
+{
+    string answer = my_string;
+
+    for (int i = 0; i < answer.length(); i++)
+    {
+        //toupper() : 대문자로
+        answer[i] = tolower(answer[i]);
+    }
+
+    return answer;
+}
+```
+
+---
