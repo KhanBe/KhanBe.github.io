@@ -64,3 +64,16 @@ string solution(string my_string)
 ```
 
 ---
+
+### gcd / lcm
+
+```cpp
+#include <numeric>
+
+using namespace std;
+
+int g = gcd(num1, num2);
+int l = lcm(num1, num2);
+```
+
+---
