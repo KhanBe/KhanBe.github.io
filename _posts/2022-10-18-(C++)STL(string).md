@@ -77,3 +77,17 @@ int l = lcm(num1, num2);
 ```
 
 ---
+
+### vector 중복 원소 제거
+
+```cpp
+#include <algorithm>
+
+using namespace std;
+
+//정렬 후 unique 후 erase 뒷부분
+sort(answer.begin(), answer.end());
+answer.erase(unique(answer.begin(), answer.end()), answer.end())
+```
+
+---
