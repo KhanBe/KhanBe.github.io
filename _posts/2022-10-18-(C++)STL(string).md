@@ -10,7 +10,7 @@ tags:
   - Library
   - 자료구조
   - string
-last_modified_at: 2022-10-18T08:06:00-05:00
+last_modified_at: 2022-10-25T08:06:00-05:00
 
 ---
 
@@ -91,3 +91,29 @@ answer.erase(unique(answer.begin(), answer.end()), answer.end())
 ```
 
 ---
+
+### 문자열에서 특정 문자 지우는 방법
+
+```
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+string solution(string my_string)
+{
+	string answer = "";
+
+	char aeiou[5] {'a', 'e', 'i', 'o', 'u'};//특정문자
+	
+	for (int i = 0; i < my_string.length(); i++)
+	{
+		if (my_string[i] == a) {
+			my_string.erase(my_string.begin() + i);
+			i--;//erase 하면 주소값 + 1된다.
+		}
+	}
+}
+```
+
