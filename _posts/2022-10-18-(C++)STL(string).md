@@ -117,3 +117,33 @@ string solution(string my_string)
 }
 ```
 
+---
+
+### stringstream
+
+- 문자열을 공백과 \n을 기준으로 파싱하는 용도 등   
+- <sstream> 헤더 선언
+
+```cpp
+//1. 초기화 방법
+stringstream ss(str);
+
+//2. 초기화 방법
+stringstream ss;
+ss.str("abcde ew");
+
+while (ss >> n) { // 입력받을 값이 없을 때 까지, 없으면 0 반환
+
+}
+
+str = "23 259 a 15";
+stringstream ss(str)
+int num;
+//num값에 파싱된 값이 저장됨
+while (ss >> num) { //여기서 자료형(int)에 맞지않는 값(a)이 들어오면 멈춤
+	v.push_back(num);
+}
+
+```
+
+---
