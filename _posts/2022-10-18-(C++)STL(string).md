@@ -41,6 +41,38 @@ int solution(string str1, string str2) {
 
 ---
 
+### 문자열 치환 (replace)
+
+```
+str.replace(시작 주소, 길이, 치환할 문자열)
+```
+
+### 문자열에서 string찾기
+
+- ```str.find("zero")``` 해당 문자열이 있으면 처음 주소값 반환하고 없으면 **string::npos** 반환 > 아마 No position 주소값없다는 뜻
+
+- 항상 예외처리하기
+- **없는 문자열을 찾으면 에러 생기기 때문에 string::npos를 써준다.**
+```
+if (numbers.find("zero") != string::npos) {
+    numbers.replace(numbers.find("zero"), 4, "0");
+}
+```
+
+- 전체치환 하는 방법 : while문 써주면된다.
+```
+while (numbers.find("zero") != string::npos) { //"zero"를 "0"로 전체 치환
+    numbers.replace(numbers.find("zero"), 4, "0");
+}
+```
+
+- list나 vector등 컨테이너에서 원소찾는 find함수는 다르다.
+```
+find(해당 배열begin(), 해당 배열 end(), 찾을 원소)
+```
+
+---
+
 ### 대소문자 변환
 
 ```cpp
