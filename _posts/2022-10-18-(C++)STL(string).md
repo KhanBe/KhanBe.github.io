@@ -43,7 +43,7 @@ int solution(string str1, string str2) {
 
 ### 문자열 치환 (replace)
 
-```
+```cpp
 str.replace(시작 주소, 길이, 치환할 문자열)
 ```
 
@@ -53,21 +53,21 @@ str.replace(시작 주소, 길이, 치환할 문자열)
 
 - 항상 예외처리하기
 - **없는 문자열을 찾으면 에러 생기기 때문에 string::npos를 써준다.**
-```
+```cpp
 if (numbers.find("zero") != string::npos) {
     numbers.replace(numbers.find("zero"), 4, "0");
 }
 ```
 
 - 전체치환 하는 방법 : while문 써주면된다.
-```
+```cpp
 while (numbers.find("zero") != string::npos) { //"zero"를 "0"로 전체 치환
     numbers.replace(numbers.find("zero"), 4, "0");
 }
 ```
 
 - list나 vector등 컨테이너에서 원소찾는 find함수는 다르다.
-```
+```cpp
 find(해당 배열begin(), 해당 배열 end(), 찾을 원소)
 ```
 
@@ -126,7 +126,7 @@ answer.erase(unique(answer.begin(), answer.end()), answer.end())
 
 ### 문자열에서 특정 문자 지우는 방법
 
-```
+```cpp
 #include <string>
 #include <vector>
 #include <algorithm>
